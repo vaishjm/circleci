@@ -15,11 +15,7 @@ app = Flask(__name__)
 
 @app.route('/', methods=['GET', 'POST'])
 def index():
-<<<<<<< HEAD
     return "Flask app is running and I am changing something -  to test but not much"
-=======
-    return "Flask app is running and I am changing something to test."
->>>>>>> 8ccf495a3b936e3375eeef03a958f2dec9a37134
 
 port = int(os.getenv("PORT", 5001))
 
